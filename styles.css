@@ -19,6 +19,13 @@ header {
     margin-bottom: 20px;
 }
 
+header nav {
+    display: none;
+    justify-content: flex-end;
+    max-width: 80%;
+    margin-left: auto;
+}
+
 header h1, h2 {
     color: #ddd;
 }
@@ -34,7 +41,6 @@ h2 {
 }
 
 nav {
-    display: flex;
     justify-content: flex-end;
     max-width: 80%;
     margin-left: auto;
@@ -108,6 +114,23 @@ footer {
     color: #ddd;
 }
 
+/* Initially hide the hamburger and display the sidebar */
+#hamburger {
+    display: none;
+}
+#sidebar {
+    /* Style your sidebar here */
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background-color: #333;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
 @media screen and (max-width: 600px) {
     .content-wrapper {
         flex-direction: column;
@@ -120,24 +143,27 @@ footer {
     #hamburger {
         display: block;
     }
+    header nav {
+        display: none;
+    }
     #sidebar {
-        display: block;
+        display: none;  /* Change from block to none */
         position: fixed;
         top: 0;
         left: 0;
         height: 100%;
     }
+    #sidebar.active {
+        transform: translateX(0);
+    }
 }
-
-/* Initially hide the hamburger and display the sidebar */
-#hamburger {
-    display: none;
-}
-#sidebar {
-    /* Style your sidebar here */
-    display: block;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-out;
+@media screen and (min-width: 600px) {
+    #hamburger {
+        display: none;
+    }
+    header nav {
+        display: flex; /* Explicitly showing the nav on larger screens */
+    }
 }
 
 
