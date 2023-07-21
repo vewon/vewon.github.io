@@ -117,6 +117,21 @@ footer {
     .text-content, .img-content {
         flex-basis: 100%;
     }
+    #hamburger {
+        display: block;
+    }
+    #sidebar {
+        display: none;
+    }
+}
+
+/* Initially hide the hamburger and display the sidebar */
+#hamburger {
+    display: none;
+}
+#sidebar {
+    /* Style your sidebar here */
+    display: block;
 }
 
 

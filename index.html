@@ -8,14 +8,19 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">ABOUT</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="socials.html">SOCIALS</a></li>
-                <li><a href="commissions.html">COMMISSIONS</a></li>
-            </ul>
-        </nav>
+        <div id="hamburger" onclick="toggleSidebar()">
+            &#9776;  <!-- This is a simple text representation of a hamburger icon -->
+        </div>
+        <div id="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="socials.html">SOCIALS</a></li>
+                    <li><a href="commissions.html">COMMISSIONS</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <main>
@@ -36,5 +41,15 @@
     <footer>
         <p>© 2023 VERONICA LYN</p>
     </footer>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            if (sidebar.style.display === 'none') {
+                sidebar.style.display = 'block';
+            } else {
+                sidebar.style.display = 'none';
+            }
+        }
+        </script>
 </body>
 </html>
