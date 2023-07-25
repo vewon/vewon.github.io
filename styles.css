@@ -11,7 +11,8 @@ body {
     /* background-color: #fec5bb; */
     background-image: url("./pictures/pink-gradient.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     /* padding: 20px; */
     padding-right: 15%;
     padding-left: 15%;
