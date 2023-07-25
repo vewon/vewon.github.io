@@ -57,6 +57,11 @@ h1 {
 h2 {
     font-size: 1.5em;
 }
+
+h3 {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
 /* 
 nav {
     justify-content: flex-end;
@@ -96,6 +101,7 @@ nav ul li a:hover {
     max-width: 100%;
     margin-left: 0;
     z-index: 12;
+    padding-top: 1%;
 }
 
 .navbar-container {
@@ -191,6 +197,20 @@ main {
     object-fit: cover;
 }
 
+.img-content-proj-items {
+    background-color: #fae1dd;
+    display: grid;
+    text-align: left;
+}
+
+.img-content-proj-items img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 800px;
+    padding-left: 5%;
+}
+
 .text-content-proj {
     flex-basis: 60%;
     display: flex;
@@ -199,6 +219,19 @@ main {
     align-items: flex-start;
     gap: 20px;
     /* padding: 0 10%; */
+    background-color: #fae1dd;
+}
+
+.text-content-proj-items {
+    flex-basis: 50%;
+    display: grid;
+    text-align: justify;
+    justify-content: left;
+    align-items: flex-start;
+    /* gap: 20px; */
+    /* padding: 0 10%; */
+    padding-left: 1%;
+    padding-right: 7%;
     background-color: #fae1dd;
 }
 
@@ -215,6 +248,12 @@ footer {
     border-top-width: 0px;
     border-style: solid;
     border-color: white;
+    margin-bottom: 20px;
+}
+
+.hr-half {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Initially hide the hamburger and display the sidebar */
@@ -251,6 +290,10 @@ footer {
     }
     .text-content, .img-content {
         flex-basis: 100%;
+    }
+
+    .img-content-proj-items img {
+        padding-left: 0%;
     }
     /* .hamburger {
         display: block;
