@@ -23,6 +23,9 @@ header {
     /* padding: 0.5px; */
     padding-right: 12%;
     /* margin-bottom: 20px; */
+    margin-top: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 header nav {
@@ -148,6 +151,8 @@ footer {
     text-align: center;
     font-size: 0.8em;
     color: #333;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 /* Initially hide the hamburger and display the sidebar */
