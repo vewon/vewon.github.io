@@ -26,6 +26,10 @@ header {
     margin-top: 20px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    border-width: 3px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: white;
 }
 
 header nav {
@@ -87,9 +91,18 @@ p {
 }
 
 hr {
-    border: 0.1px solid #ded6ce;
+    border: 1px solid white;
     border-radius: 5px;
     margin: 0em;
+}
+
+main {
+    background-color: #fae1dd;
+    border-width: 0px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-style: solid;
+    border-color: white;
 }
 
 .content-wrapper {
@@ -99,7 +112,7 @@ hr {
     align-items: flex-start;
     gap: 20px;
     /* padding: 0 10%; */
-    background-color: #fae1dd;
+    background-color: #fae1dd;    
 }
 
 .text-content {
@@ -146,13 +159,17 @@ hr {
 
 footer {
     background: #fae1dd;
-    padding: 20px;
+    padding: 5px;
     /* margin-top: 20px; */
     text-align: center;
     font-size: 0.8em;
     color: #333;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border-width: 3px;
+    border-top-width: 0px;
+    border-style: solid;
+    border-color: white;
 }
 
 /* Initially hide the hamburger and display the sidebar */
