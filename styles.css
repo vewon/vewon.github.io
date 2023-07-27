@@ -9,17 +9,18 @@ body {
     line-height: 1.6;
     color: black;
     /* background-color: #fec5bb; */
-    background-image: url("./pictures/pink-gradient.png");
+    background-image: url("./pictures/pxl-bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    /* background-size: 100% 100%; */
     /* padding: 20px; */
     padding-right: 15%;
     padding-left: 15%;
 }
 
 header {
-    background: #fae1dd;
+    background: #D8BFD8;
     /* padding: 0.5px; */
     padding-right: 12%;
     /* margin-bottom: 20px; */
@@ -129,7 +130,7 @@ nav ul li a:hover {
 }
 
 .menu-items a:hover {
-    color: #98dbb2;
+    color: #DA70D6;
     transition: color 0.3s ease-in-out;
 }
 
@@ -148,7 +149,7 @@ hr {
 }
 
 main {
-    background-color: #fae1dd;
+    background-color: #D8BFD8;
     border-width: 0px;
     border-left-width: 3px;
     border-right-width: 3px;
@@ -163,7 +164,7 @@ main {
     align-items: flex-start;
     gap: 20px;
     /* padding: 0 10%; */
-    background-color: #fae1dd;    
+    background-color: #D8BFD8;    
 }
 
 .text-content {
@@ -185,7 +186,7 @@ main {
 
 .img-content-proj {
     /* flex-basis: 20%; */
-    background-color: #fae1dd;
+    background-color: #D8BFD8;
     display: flex;
     text-align: justify;
     justify-content: center;
@@ -198,7 +199,7 @@ main {
 }
 
 .img-content-proj-items {
-    background-color: #fae1dd;
+    background-color: #D8BFD8;
     display: grid;
     text-align: left;
 }
@@ -219,7 +220,7 @@ main {
     align-items: flex-start;
     gap: 20px;
     /* padding: 0 10%; */
-    background-color: #fae1dd;
+    background-color: #D8BFD8;
 }
 
 .text-content-proj-items {
@@ -232,11 +233,11 @@ main {
     /* padding: 0 10%; */
     padding-left: 1%;
     padding-right: 7%;
-    background-color: #fae1dd;
+    background-color: #D8BFD8;
 }
 
 footer {
-    background: #fae1dd;
+    background: #D8BFD8;
     padding: 5px;
     /* margin-top: 20px; */
     text-align: center;
