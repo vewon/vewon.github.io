@@ -298,17 +298,25 @@ a {
         flex-direction: row;
     }
 
+    #navbar li {
+        font-size: 18px;
+    }
+
+    #navbar a:not(:last-child) {
+        margin-right: 20px;
+    }
+
     #welcome-section {
         flex-direction: column;
     }
 
     .welcome-div .front-end {
-        font-size: 18px;
-        margin-top: 80px;
+        font-size: 16px;
+        margin-top: 70px;
     }
 
     .front-end-text {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .project-div {
@@ -316,8 +324,8 @@ a {
     }
 
     .project-div-item img {
-        height: 200px;
-        width: 400px;
+        height: 150px;
+        width: 300px;
     }
 }
 
